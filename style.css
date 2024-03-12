@@ -1,0 +1,72 @@
+.navbar{
+    background-color: rgb(167, 248, 248);
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top:  2%;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#form {
+    background-color: bisque;
+    height: 290px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+h2{
+    margin-top: 20px;
+}
+#title{
+    font-size: 20px;
+}
+#author{
+    font-size: 20px;
+
+}
+#pages{
+    font-size: 20px;
+}
+#text{
+    font-size: 25px;
+}
+#submit{
+    font-size: 30px;
+    background-color: rgb(4, 108, 73);
+}
+.cards {
+    background-color: rgb(198, 219, 46);
+    height: 280px;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: inline-flex;
+}
+.read {
+     border-radius: 15px;
+     width: 150px;
+    height: 45px;
+    margin-left: 20px;
+}
+.remove{
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
